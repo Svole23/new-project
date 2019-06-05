@@ -1,0 +1,37 @@
+* {
+	&:focus {
+		outline: none!important;
+	}
+}
+
+svg {
+	display: block;
+}
+
+ul, ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	position: relative;
+	position: relative;
+	min-height: 100%;
+	font-size: inherit;
+}
+
+body {
+	font-family: $nunito;
+	font-size: rem(16px);
+	line-height: 1.25;
+	letter-spacing: 0.7px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	font-feature-settings: "kern" 1;
+	-webkit-font-feature-settings: "kern" 1;
+	-moz-font-feature-settings: "kern" 1;
+	color: $text-color;
+}

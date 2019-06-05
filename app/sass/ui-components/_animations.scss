@@ -1,0 +1,62 @@
+
+.flip-effect {
+  padding: 0;
+  overflow: initial;
+
+  &:hover, &:focus {
+    > span {
+      -webkit-transform: rotateX(90deg) translateY(-22px);
+      -moz-transform: rotateX(90deg) translateY(-22px);
+      transform: rotateX(90deg) translateY(-22px);
+    }
+  }
+
+  > span {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    &:before {
+      content: attr(data-hover);
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+      -webkit-transform: rotateX(-90deg);
+      -moz-transform: rotateX(-90deg);
+      transform: rotateX(-90deg);
+      -webkit-transform-origin: 50% 0;
+      -moz-transform-origin: 50% 0;
+      transform-origin: 50% 0;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }
+}
+
+.rounded-hover:hover {
+  padding: 10px;
+  cursor: pointer;
+
+  .hs-title-container:after {
+    background: $blue !important;
+  }
+
+  .hs-text-under {
+    color: $blue !important;
+  }
+
+  .hs-text {
+    color: black !important;
+  }
+
+  .hs-content-container {
+    background: white !important;
+  }
+}

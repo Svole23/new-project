@@ -1,0 +1,23 @@
+@import 'base/libs';
+
+$breakpoints: $grid-breakpoints;
+
+// Bases classes are fundamental building blocks based on the site design
+@import 'base/fonts';
+@import 'base/colors';
+@import 'base/icons';
+
+@import 'base/variables';
+@import 'base/baseelements';
+@import 'base/typography';
+@import 'base/mixins.scss';
+
+@import 'ui-components/buttons';
+@import 'ui-components/forms';
+@import 'ui-components/modal';
+
+@import 'modules/footer';
+@import 'modules/home';
+@import 'modules/header';
+@import 'ui-components/animations';
+

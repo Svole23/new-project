@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="search" transform="translate(-3.000000, -3.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M10.8515765,18.7 C6.52142721,18.7 3.01157646,15.1851988 3.01157646,10.85 C3.01157646,6.51480117 6.52142721,3 10.8515765,3 C15.1817257,3 18.6915765,6.51480117 18.6915765,10.85 C18.6915765,15.1851988 15.1817257,18.7 10.8515765,18.7 Z M10.8515765,17.2 C14.352825,17.2 17.1915765,14.3572446 17.1915765,10.85 C17.1915765,7.34275539 14.352825,4.5 10.8515765,4.5 C7.35032797,4.5 4.51157646,7.34275539 4.51157646,10.85 C4.51157646,14.3572446 7.35032797,17.2 10.8515765,17.2 Z" id="Oval" transform="translate(10.851576, 10.850000) rotate(-45.000000) translate(-10.851576, -10.850000) "></path>
+            <rect id="Rectangle" transform="translate(18.029772, 18.054142) rotate(-45.000000) translate(-18.029772, -18.054142) " x="16.659772" y="14.5941421" width="2.74" height="6.92" rx="1.22"></rect>
+        </g>
+    </g>
+</svg>
